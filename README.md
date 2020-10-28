@@ -25,6 +25,6 @@ Uninstall:
 ![Usage_example](https://github.com/JackyKLai/asl_calculator/raw/main/usage.JPG)
 
 # Some Interesting Findings With ASL Calculator
-In "Intensified Continuity Visual Style in Contemporary American Film," David Bordwell protests the existence of post-classical films. He claims the contemporary American film style does not depart from classicality but rather intensifies it. One of the stylistic devices being intesified, according to Bordwell, takes the form of the increase in editing pace.
+In "Intensified Continuity Visual Style in Contemporary American Film," David Bordwell protests the existence of post-classical films. He claims the contemporary American film style does not depart from classicality but rather intensifies it. One of the stylistic devices being intesified, according to Bordwell, takes the form of the increase in editing pace (decrease in average shot length).
 
 With Adobe Premiere Pro's new Scene Edit Detection feature, we can generate a .edl file for a film. Loading the Edit Decision Lists files for *Ocean's Eleven* (1960) and its 2011 remake into ASL Calculator yields an interesting result: the original has an ASL of 13.24 and the remake has an ASL of 6.09.
