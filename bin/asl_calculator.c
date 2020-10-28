@@ -44,9 +44,9 @@ int main(int argc, char **argv) {
             char in_time[12];
             char out_time[12];
             while (token != NULL) {
-                strcpy(in_time, token);
+                memcpy(in_time, token, 12);
                 token = strtok(NULL, " ");
-                strcpy(out_time, token);
+                memcpy(out_time, token, 12);
                 token = strtok(NULL, " ");
             }
             in_time[11] = '\0';
