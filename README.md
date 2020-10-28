@@ -5,12 +5,14 @@ A simple c program that calculates the ASL (average shot length) given a .edl (E
 Install:
 
     wget https://raw.githubusercontent.com/JackyKLai/asl_calculator/main/installation/install.sh
+    chmod a+x install.sh
     ./install.sh
     rm ./install.sh
     
 Uninstall:
 
     wget https://raw.githubusercontent.com/JackyKLai/asl_calculator/main/installation/uninstall.sh
+    chmod a+x uninstall.sh
     ./uninstall.sh
     rm ./uninstall.sh
     
