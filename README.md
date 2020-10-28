@@ -10,7 +10,7 @@ Install:
     
 Uninstall:
 
-    wget https://raw.githubusercontent.com/JackyKLai/asl_calculator/main/installation/install.sh
+    wget https://raw.githubusercontent.com/JackyKLai/asl_calculator/main/installation/uninstall.sh
     ./uninstall.sh
     rm ./uninstall.sh
     
