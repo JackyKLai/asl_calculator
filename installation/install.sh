@@ -7,9 +7,9 @@ case "${unameOut}" in
     MINGW*)     machine=MinGw;;
     *)          machine="UNKNOWN:${unameOut}"
 esac
-if [ $machine != "Mac" -o $machine != "Linux" ]
+if [ $machine != "Mac" -a $machine != "Linux" ]
 then
-    echo -e "not supported"
+    echo -e "$machine is not supported"
     exit 1
 fi
 install_dirname="install_aslCalc"
