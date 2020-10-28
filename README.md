@@ -2,6 +2,8 @@
 A simple c program that calculates the ASL (average shot length) given a .edl (Edit Decision Lists) file.
 
 # Installation
+**Compilation is a part of the installation process. Make sure to have gcc (or clang on Mac) installed beforehand.**
+
 Install:
 
     wget https://raw.githubusercontent.com/JackyKLai/asl_calculator/main/installation/install.sh
