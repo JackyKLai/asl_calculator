@@ -1,4 +1,4 @@
-# asl_calculator
+# ASL Calculator
 A simple c program that calculates the ASL (average shot length) given a .edl (Edit Decision Lists) file.
 
 # Installation
