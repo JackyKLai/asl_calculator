@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+const char *get_filename_ext(const char *filename) {
+    const char *dot = strrchr(filename, '.');
+    if(!dot || dot == filename) return "";
+    return dot + 1;
+}
 
 double timecode_to_frames(char* timecode, double frame_rate) {
     char *token;
@@ -29,6 +34,10 @@ int main(int argc, char **argv) {
     FILE *file = fopen(argv[1], "r");
     if (file == NULL) {
         fprintf(stderr, "Failed to open file.\n");
+        exit(1);
+    }
+    if (strcmp(get_filename_ext(argv[1]), "edl") != 0) {
+        fprintf(stderr, "Please provide a .edl file.\n");
         exit(1);
     }
 
